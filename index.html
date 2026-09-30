@@ -40,18 +40,17 @@ header{position:fixed;top:0;left:0;width:100%;z-index:40;color:#fff;transition:b
 .final{padding:130px 0;text-align:center;color:#fff;background:linear-gradient(#0e1a25db,#0e1a25eb),url('images/final.jpg') center/cover no-repeat,var(--navy)}.final .eyebrow{color:var(--aqua-soft)}.final .title{max-width:900px;margin:0 auto 20px}.final p{max-width:680px;margin:0 auto;color:#d6dde3}.final .actions{justify-content:center}.final .alt{margin-top:26px!important;font:500 1.3rem/1.3 var(--serif);font-style:italic;color:var(--gold-soft)!important}
 footer{background:#0c1620;color:#fff;padding:70px 0 28px}.foot{display:grid;grid-template-columns:1.6fr repeat(5,1fr);gap:34px}.foot h4{margin:0 0 12px;font-size:.66rem;color:var(--aqua-soft);text-transform:uppercase;letter-spacing:.16em}.foot a{display:block;color:#c3cbd3;font-size:.8rem;margin:7px 0}.foot a:hover{color:#fff}.foot .foot address{font-style:normal;color:#c3cbd3;font-size:.84rem;margin-top:22px}.copyright{border-top:1px solid #ffffff17;margin-top:48px;padding-top:20px;font-size:.72rem;color:#8e98a3}.mobile-cta{display:none}
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}.reveal.visible{opacity:1;transform:none}.reveal-item{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1)}.reveal-group.visible .reveal-item{opacity:1;transform:none}.reveal-group.visible .reveal-item:nth-child(2){transition-delay:.08s}.reveal-group.visible .reveal-item:nth-child(3){transition-delay:.16s}.reveal-group.visible .reveal-item:nth-child(4){transition-delay:.24s}.reveal-group.visible .reveal-item:nth-child(5){transition-delay:.32s}.reveal-group.visible .reveal-item:nth-child(6){transition-delay:.4s}.reveal-group.visible .reveal-item:nth-child(7){transition-delay:.48s}.reveal-group.visible .reveal-item:nth-child(8){transition-delay:.56s}
-form.req{background:var(--warm);border:1px solid var(--line);padding:36px}.tabs{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--navy);margin:0 0 26px;padding:0}.tabs legend{position:absolute;left:-9999px}.tab{position:relative}.tab input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.tab span{display:block;text-align:center;padding:13px 8px;font-size:.74rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--navy)}.tab+.tab span{border-left:1px solid var(--navy)}.tab input:checked+span{background:var(--navy);color:#fff}.form-title{font:600 1.9rem/1.1 var(--serif);margin:0 0 18px}.fields{border:0;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:16px}.fields[hidden]{display:none}.fields .full{grid-column:1/-1}.f{display:flex;flex-direction:column;gap:6px;font-size:.76rem;font-weight:700;color:var(--ink)}.f input,.f select,.f textarea{font:500 .95rem var(--sans);color:var(--ink);background:var(--ivory);border:1px solid #aaa192;padding:12px;min-height:48px;width:100%}.f textarea{min-height:92px;resize:vertical}.interests{border:0;padding:0;margin:0}.interests legend{font-size:.76rem;font-weight:700;margin-bottom:10px;padding:0}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{position:relative}.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.chip span{display:inline-block;padding:9px 14px;border:1px solid #aaa192;font-size:.8rem;font-weight:700;background:var(--ivory)}.chip input:checked+span{background:var(--aqua);border-color:var(--aqua);color:#fff}.chip input:focus-visible+span{outline:3px solid var(--gold);outline-offset:2px}.shared{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.shared .full{grid-column:1/-1}.req-foot{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:24px}.req-foot p{margin:0;font-size:.78rem;color:var(--muted);flex:1;min-width:220px}
-form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off textarea,form.off .tab span,form.off .chip span{opacity:.6}form.off .btn:disabled{opacity:.5}form.off .btn:disabled:hover{transform:none}
+form.req{background:var(--warm);border:1px solid var(--line);padding:36px}.fields{border:0;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:16px}.fields .full{grid-column:1/-1}.f{display:flex;flex-direction:column;gap:6px;font-size:.76rem;font-weight:700;color:var(--ink)}.f input,.f select,.f textarea{font:500 .95rem var(--sans);color:var(--ink);background:var(--ivory);border:1px solid #aaa192;padding:12px;min-height:48px;width:100%}.f textarea{min-height:92px;resize:vertical}.req-foot{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:24px}.req-foot p{margin:0;font-size:.78rem;color:var(--muted);flex:1;min-width:220px}
+.f small{font-weight:500;color:var(--muted)}.f input:focus-visible,.f textarea:focus-visible{outline:3px solid var(--gold);outline-offset:1px}.f [aria-invalid=true]{border-color:var(--wine);box-shadow:0 0 0 1px var(--wine)}[data-error-for]{font-weight:700;color:var(--wine)}[data-error-for]:empty{display:none}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}form.req .btn[disabled]{opacity:.6;cursor:wait;transform:none}[data-status]{margin:18px 0 0;padding:14px 16px;border-left:3px solid var(--aqua);background:var(--ivory);font-size:.9rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:var(--wine)}[data-status] a{font-weight:800;text-decoration:underline}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-item{opacity:1;transform:none;transition:none}.btn{transition:none}}
 @media(max-width:1140px){.links{display:none}.facts-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pillars{grid-template-columns:repeat(3,minmax(0,1fr))}.foot{grid-template-columns:repeat(3,1fr)}.foot>div:first-child{grid-column:1/-1}.steps{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:10px}}
 @media(max-width:920px){.topbar{display:none}.nav .btn,.phone{display:none}.split,.stay-grid,.req-grid,.dine-grid,.dine-head{grid-template-columns:1fr;gap:40px}.split .ph,.swim .ph,.relax .ph,.meet .ph,.arrive .ph,.stay-grid .ph,.dine-grid .ph{min-height:360px}.rev,.pets-inner{grid-template-columns:1fr;gap:16px}.rev{padding:30px 24px}.gal{grid-template-columns:1fr 1fr;grid-auto-rows:180px}.section{padding:78px 0}.mobile-cta{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;bottom:0;left:0;right:0;z-index:50;box-shadow:0 -6px 24px #0003}.mobile-cta .btn{padding:0 6px;min-height:56px;font-size:.68rem}body{padding-bottom:56px}.split.flip>.ph{order:-1}.hero .d-only{display:none}.hero .m-only{display:flex}}
 @media(max-width:560px){.wrap{width:calc(100% - 32px)}.nav{height:70px}.hero-inner{padding:124px 0 44px}.hero h1 .name{font-size:4.2rem}.facts-grid,.pillars,.tiles,.biz,.steps{grid-template-columns:1fr}.steps li{padding:20px 0 14px}.fact{padding:22px 20px}.foot{grid-template-columns:1fr 1fr}.gal{grid-template-columns:1fr}.gal .ph:first-child{grid-column:auto;grid-row:auto}.score b{font-size:3.4rem}.addr{font-size:1.5rem}.chain li{padding:9px 12px;font-size:.7rem}.chain li+li:before{margin:0 8px 0 -2px}}
-@media(max-width:560px){.fields,.shared{grid-template-columns:1fr}form.req{padding:24px 18px}.tab span{font-size:.66rem;padding:12px 4px}}
-.req-mark{color:#c0392b}.req-success{padding:28px 8px;text-align:center}.req-success-icon{font-size:2.2rem;line-height:1;margin:0 0 10px}.req-success-title{font-size:1.25rem;font-weight:700;margin:0 0 8px}.req-success-text{opacity:.8;margin:0 0 20px}</style></head><body><a class="skip" href="#main">До основного змісту</a>
-<header id="top"><div class="topbar"><div class="wrap topbar-inner"><span>Жванецьке шосе, 3 · Кам’янець-Подільський</span><span style="margin:0">Рецепція 24/7</span><a href="#pool">Критий басейн</a><a href="#meet">Конференц-зали</a></div></div><div class="wrap nav"><a class="logo" href="#top" aria-label="Ксенія, на початок сторінки"><strong>КСЕНІЯ</strong><small lang="en">Hotel · Restaurant · Kamianets-Podilskyi</small></a><nav class="links" aria-label="Основна навігація"><a href="#stay">Номери</a><a href="#dine">Ресторан</a><a href="#pool">Басейн</a><a href="#sauna">Сауна</a><a href="#meet">Конференції</a><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></nav><a class="phone" href="tel:+380675263662">+380 67 526 36 62</a><a class="btn" href="#request">Забронювати номер</a></div></header>
+@media(max-width:560px){.fields{grid-template-columns:1fr}form.req{padding:24px 18px}}</style></head><body><a class="skip" href="#main">До основного змісту</a>
+<header id="top"><div class="topbar"><div class="wrap topbar-inner"><span>Жванецьке шосе, 3 · Кам’янець-Подільський</span><span style="margin:0">Рецепція 24/7</span><a href="#pool">Критий басейн</a><a href="#meet">Конференц-зали</a></div></div><div class="wrap nav"><a class="logo" href="#top" aria-label="Ксенія, на початок сторінки"><strong>КСЕНІЯ</strong><small lang="en">Hotel · Restaurant · Kamianets-Podilskyi</small></a><nav class="links" aria-label="Основна навігація"><a href="#stay">Номери</a><a href="#dine">Ресторан</a><a href="#pool">Басейн</a><a href="#sauna">Сауна</a><a href="#meet">Конференції</a><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></nav><a class="phone" href="tel:+380675263662">+380 67 526 36 62</a><a class="btn" href="#stay-request">Забронювати номер</a></div></header>
 <main id="main">
 <section class="hero"><div class="wrap hero-inner"><h1><span class="name">Ксенія</span><span class="full">3★ готельно-ресторанний комплекс у Кам’янці-Подільському</span></h1><h2>Відпочинок, який не закінчується номером</h2><p class="sub">Номери, ресторан, критий басейн, сауна та конференц-зали.</p>
-<div class="actions d-only"><a class="btn" href="#stay">Переглянути номери</a><a class="btn ghost" href="#complex">Відкрити комплекс</a></div><div class="actions m-only"><a class="btn" href="#request">Забронювати</a><a class="btn ghost" href="#pool">Басейн</a></div>
+<div class="actions d-only"><a class="btn" href="#stay">Переглянути номери</a><a class="btn ghost" href="#complex">Відкрити комплекс</a></div><div class="actions m-only"><a class="btn" href="#stay-request">Забронювати</a><a class="btn ghost" href="#pool">Басейн</a></div>
 <p class="hero-meta"><span><b>Жванецьке шосе, 3</b></span><span>Рецепція <b>24/7</b></span><a href="tel:+380675263662"><b>+380 67 526 36 62</b></a></p></div></section>
 
 <section class="facts" aria-label="Коротко про комплекс"><div class="wrap facts-grid reveal-group"><div class="fact reveal-item"><b>3★</b><span>класифікація готелю</span></div><div class="fact reveal-item"><b>Критий басейн</b><span>у комплексі</span></div><div class="fact reveal-item"><b>Ресторан і бар</b><span>без виходу з готелю</span></div><div class="fact reveal-item"><b>Сауна</b><span>для відпочинку після дня</span></div><div class="fact reveal-item"><b>Безкоштовна парковка</b><span>для гостей</span></div><div class="fact reveal-item"><b>Безкоштовний Wi-Fi</b><span>для гостей</span></div><div class="fact reveal-item"><b>Конференц-зали</b><span>для зустрічей і подій</span></div><div class="fact reveal-item"><b>Рецепція 24/7</b><span>цілодобово</span></div></div></section>
@@ -60,22 +59,26 @@ form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off te
 <div class="pillars reveal-group"><a class="pillar reveal-item" href="#stay"><span class="tag" lang="en">Stay</span><h3>Проживання</h3><p>Номери з приватною ванною, Wi-Fi, рецепція 24/7.</p></a><a class="pillar reveal-item" href="#dine"><span class="tag" lang="en">Dine</span><h3>Ресторан</h3><p>Ресторан і бар у комплексі.</p></a><a class="pillar reveal-item" href="#pool"><span class="tag" lang="en">Swim</span><h3>Басейн</h3><p>Критий басейн.</p></a><a class="pillar reveal-item" href="#sauna"><span class="tag" lang="en">Relax</span><h3>Сауна</h3><p>Після басейну або дороги.</p></a><a class="pillar reveal-item" href="#meet"><span class="tag" lang="en">Meet</span><h3>Зустрічі</h3><p>Конференц-зали й проживання поруч.</p></a></div></div></section>
 
 <section class="section stay" id="stay"><div class="wrap"><div class="reveal"><p class="eyebrow" lang="en">Stay</p><h2 class="title">Номери для вашої поїздки</h2><p class="lead">Зупиніться на ніч чи на вихідні. Категорії, місткість і ціни номерів уточнюйте на рецепції — підберемо варіант під ваші дати.</p></div>
-<div class="stay-grid"><div class="ph reveal" style="--img:url('images/room.jpg')" role="img" aria-label="Номер — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Stay</span></div><div class="reveal"><div class="amen"><div><b>Приватна ванна кімната</b><span>у номері</span></div><div><b>Безкоштовний Wi-Fi</b><span>для гостей готелю</span></div><div><b>Кондиціонування доступне у частині номерів</b><span>якщо це важливо — скажіть при бронюванні</span></div><div><b>Рецепція працює 24/7</b><span>на зв’язку цілодобово</span></div><div><b>Виїзд до 12:00</b><span>час заїзду уточнюйте при бронюванні</span></div></div><div class="actions"><a class="btn dark" href="#request">Перевірити проживання</a><a class="btn line" href="tel:+380675263662">Подзвонити</a></div></div></div></div></section>
+<div class="stay-grid"><div class="ph reveal" style="--img:url('images/room.jpg')" role="img" aria-label="Номер — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Stay</span></div><div class="reveal"><div class="amen"><div><b>Приватна ванна кімната</b><span>у номері</span></div><div><b>Безкоштовний Wi-Fi</b><span>для гостей готелю</span></div><div><b>Кондиціонування доступне у частині номерів</b><span>якщо це важливо — скажіть при бронюванні</span></div><div><b>Рецепція працює 24/7</b><span>на зв’язку цілодобово</span></div><div><b>Виїзд до 12:00</b><span>час заїзду уточнюйте при бронюванні</span></div></div><div class="actions"><a class="btn dark" href="#stay-request">Перевірити проживання</a><a class="btn line" href="tel:+380675263662">Подзвонити</a></div></div></div></div></section>
 
 <section class="section arrive" id="arrive"><div class="wrap split flip"><div class="reveal"><p class="eyebrow" lang="en">Arrive</p><h2 class="title">Приїжджайте автомобілем</h2><p class="lead">Для гостей — безкоштовна парковка. Кількість місць і умови для автобусів уточнюйте заздалегідь.</p><div class="tiles"><div><span class="tag">Парковка</span><b>Безкоштовна</b><span>для гостей</span></div><div><span class="tag">Wi-Fi</span><b>Безкоштовний</b><span>для гостей</span></div><div><span class="tag">Рецепція</span><b>24/7</b><span>цілодобово</span></div><div><span class="tag">Виїзд</span><b>До 12:00</b><span>заїзд — уточнюйте</span></div></div><div class="actions"><a class="btn dark" href="https://maps.google.com/?cid=2984405603124008173" target="_blank" rel="noopener">Прокласти маршрут</a></div></div><div class="ph reveal" style="--img:url('images/parking.jpg')" role="img" aria-label="Парковка — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Arrive</span></div></div></section>
 
 <section class="section swim" id="pool"><div class="wrap split"><div class="ph reveal" style="--img:url('images/hero.jpg')" role="img" aria-label="Критий басейн — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Swim</span></div><div class="reveal"><p class="eyebrow" lang="en">Swim</p><h2 class="title">Критий басейн. Відпочинок незалежно від погоди</h2><p class="lead">Після прогулянки містом чи дня в дорозі — басейн у тому ж комплексі, де ви зупинились.</p><p class="note"><strong>Години роботи, умови відвідування та вартість</strong> уточнюйте на рецепції або за телефоном.</p><div class="actions"><a class="btn" href="tel:+380675263662">Дізнатися про басейн</a><a class="btn ghost" href="#sauna">Далі — сауна</a></div></div></div></section>
 
-<section class="section relax" id="sauna"><div class="wrap split flip"><div class="reveal"><p class="eyebrow" lang="en">Relax</p><h2 class="title">Продовжіть відпочинок після басейну</h2><p class="lead">Сауна у комплексі — щоб зняти втому після дороги або насиченого дня в Кам’янці.</p><ul class="chain" lang="en"><li>Swim</li><li>Sauna</li><li>Rest</li></ul><p class="note"><strong>Тип сауни, місткість, тривалість і вартість</strong> — за телефоном. Там же підкажуть, як забронювати час.</p><div class="actions"><a class="btn" href="tel:+380675263662">Уточнити сауну</a></div></div><div class="ph reveal" style="--img:url('images/sauna.jpg')" role="img" aria-label="Сауна — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Relax</span></div></div></section>
+<section class="section relax" id="sauna"><div class="wrap split flip"><div class="reveal"><p class="eyebrow" lang="en">Relax</p><h2 class="title">Продовжіть відпочинок після басейну</h2><p class="lead">Сауна у комплексі — щоб зняти втому після дороги або насиченого дня в Кам’янці.</p><ul class="chain" lang="en"><li>Swim</li><li>Sauna</li><li>Rest</li></ul><p class="note"><strong>Тип сауни, місткість, тривалість і вартість</strong> — за телефоном. Або залиште запит нижче — передзвонимо й узгодимо час.</p><div class="actions"><a class="btn" href="#sauna-request">Записатися в сауну</a><a class="btn ghost" href="tel:+380675263662">Уточнити сауну</a></div></div><div class="ph reveal" style="--img:url('images/sauna.jpg')" role="img" aria-label="Сауна — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Relax</span></div></div></section>
+
+<section class="section request" id="sauna-request"><div class="wrap req-grid"><div class="req-side reveal"><p class="eyebrow">Сауна</p><h2 class="title">Запит на сауну</h2><p class="lead">Оберіть день і зручний час — ми передзвонимо, щоб підтвердити запис, тип сауни й вартість.</p><div class="contact-list"><a href="tel:+380675263662"><small>Телефон</small><b>+380 67 526 36 62</b></a></div></div><form class="req reveal" data-hotelos data-form-name="Бронювання сауни" novalidate><div class="fields"><label class="f full"><span>Телефон <small>обов’язково, щоб ми могли передзвонити</small></span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span data-error-for="phone"></span></label><label class="f">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="f">Людей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="f">Дата<input name="date" type="date"></label><label class="f">Час<input name="time" type="time"></label><label class="f full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div><div class="req-foot"><button class="btn dark" type="submit">Надіслати запит</button><p>Або телефонуйте: <a href="tel:+380675263662"><b>+380 67 526 36 62</b></a></p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
 
 <section class="section dine" id="dine"><div class="wrap"><div class="dine-head reveal"><div><p class="eyebrow" lang="en">Dine · Ресторан</p><h2 class="title">Залишайтеся на вечерю</h2></div><p class="lead">Ресторан і бар — частина комплексу. Не потрібно шукати, де повечеряти після басейну чи робочого дня.</p></div>
 <div class="dine-grid"><div class="ph reveal" style="--img:url('images/restaurant.jpg')" role="img" aria-label="Ресторан — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Dine</span></div><article class="bar reveal"><div class="ph" style="--img:url('images/bar.jpg')" role="img" aria-label="Бар — ілюстративне фото"></div><div class="bar-body"><span class="tag" lang="en">Bar</span><h3>Бар</h3><p>Продовжіть вечір у барі комплексу.</p></div></article></div>
-<div class="reveal"><p class="note"><strong>Меню, кухня, ціни й години роботи</strong> — уточнюйте за телефоном. Там же можна запитати про столик.</p><div class="actions"><a class="btn" href="tel:+380675263662">Запитати про ресторан</a><a class="btn ghost" href="#request">Додати до бронювання</a></div></div></div></section>
+<div class="reveal"><p class="note"><strong>Меню, кухня, ціни й години роботи</strong> — уточнюйте за телефоном. Там же можна запитати про столик.</p><div class="actions"><a class="btn" href="tel:+380675263662">Запитати про ресторан</a><a class="btn ghost" href="#stay-request">Додати до бронювання</a></div></div></div></section>
 
 <section class="section weekend" id="weekend" aria-labelledby="weekend-title"><div class="wrap"><div class="reveal"><p class="eyebrow" lang="en">Weekend</p><h2 class="title" id="weekend-title">Вихідні у «Ксенії»</h2><p class="lead">Один із варіантів провести день, не змінюючи адреси.</p></div>
 <ol class="steps reveal-group"><li class="reveal-item"><span class="tag">День</span><b>Кам’янець</b><span>прогулянка містом</span></li><li class="reveal-item"><span class="tag">Повернення</span><b>Басейн</b><span>поплавати після прогулянки</span></li><li class="reveal-item"><span class="tag">Вечір</span><b>Сауна</b><span>відновитися й відпочити</span></li><li class="reveal-item"><span class="tag">Вечеря</span><b>Ресторан</b><span>і бар поруч</span></li><li class="reveal-item"><span class="tag">Ніч</span><b>Номер</b><span>у тому ж комплексі</span></li></ol><p class="steps-note">Це ідея для вихідних, а не пакетна пропозиція. Послуги бронюються й оплачуються окремо.</p></div></section>
 
-<section class="section meet" id="meet"><div class="wrap split"><div class="reveal"><p class="eyebrow" lang="en">Meet</p><h2 class="title">Зустрічайтеся там, де можна залишитися</h2><p class="lead">Конференц-зали, ресторан і номери — в одному комплексі. Учасникам не потрібно їхати з зустрічі в готель, а організатору — шукати, де нагодувати групу.</p><ul class="chain" lang="en"><li>Meet</li><li>Dine</li><li>Stay</li></ul><ul class="biz"><li><b>Конференц-зали</b>для зустрічей і подій</li><li><b>Ресторан</b>обід чи вечеря для учасників</li><li><b>Проживання</b>номери в тому ж комплексі</li><li><b>Парковка</b>безкоштовна для гостей</li></ul><p class="note"><strong>Кількість і місткість залів, розсадка, обладнання й кава-брейки</strong> — у персональній пропозиції під вашу подію.</p><div class="actions"><a class="btn" href="#request">Отримати пропозицію</a></div></div><div class="ph reveal" style="--img:url('images/conference.jpg')" role="img" aria-label="Конференц-зал — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Meet</span></div></div></section>
+<section class="section meet" id="meet"><div class="wrap split"><div class="reveal"><p class="eyebrow" lang="en">Meet</p><h2 class="title">Зустрічайтеся там, де можна залишитися</h2><p class="lead">Конференц-зали, ресторан і номери — в одному комплексі. Учасникам не потрібно їхати з зустрічі в готель, а організатору — шукати, де нагодувати групу.</p><ul class="chain" lang="en"><li>Meet</li><li>Dine</li><li>Stay</li></ul><ul class="biz"><li><b>Конференц-зали</b>для зустрічей і подій</li><li><b>Ресторан</b>обід чи вечеря для учасників</li><li><b>Проживання</b>номери в тому ж комплексі</li><li><b>Парковка</b>безкоштовна для гостей</li></ul><p class="note"><strong>Кількість і місткість залів, розсадка, обладнання й кава-брейки</strong> — у персональній пропозиції під вашу подію.</p><div class="actions"><a class="btn" href="#conference-request">Отримати пропозицію</a></div></div><div class="ph reveal" style="--img:url('images/conference.jpg')" role="img" aria-label="Конференц-зал — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Meet</span></div></div></section>
+
+<section class="section request" id="conference-request"><div class="wrap req-grid"><div class="req-side reveal"><p class="eyebrow">Конференц-зали</p><h2 class="title">Запит на конференц-зал</h2><p class="lead">Вкажіть дату й кількість учасників — менеджер зателефонує, щоб підібрати зал і підготувати пропозицію з харчуванням і проживанням.</p><div class="contact-list"><a href="tel:+380675263662"><small>Телефон</small><b>+380 67 526 36 62</b></a></div></div><form class="req reveal" data-hotelos data-form-name="Запит на конференц-зал" novalidate><div class="fields"><label class="f full"><span>Телефон <small>обов’язково, щоб ми могли передзвонити</small></span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span data-error-for="phone"></span></label><label class="f">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="f">Учасників<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="f full">Дата<input name="date" type="date"></label><label class="f full">Формат і побажання<textarea name="message" maxlength="5000" placeholder="Формат, розсадка, проєктор, мікрофони, харчування, проживання…"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div><div class="req-foot"><button class="btn dark" type="submit">Отримати пропозицію</button><p>Або телефонуйте: <a href="tel:+380675263662"><b>+380 67 526 36 62</b></a></p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
 
 <section class="pets" id="pets" aria-label="Проживання з тваринами"><div class="wrap pets-inner"><div class="pets-badge" lang="en">Pets Welcome<sup>*</sup></div><p><strong>Можна з домашнім улюбленцем.</strong> *За додаткову оплату; умови уточнюйте перед бронюванням.</p><a class="btn line" href="tel:+380675263662">Погодити умови</a></div></section>
 
@@ -86,139 +89,161 @@ form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off te
 
 <section class="section reviews" id="reviews" aria-labelledby="reviews-title"><div class="wrap"><p class="eyebrow" lang="en">Guest reviews</p><h2 class="title sr" id="reviews-title">Відгуки гостей</h2><div class="rev reveal"><div class="score"><b>3.6</b><span>/ 5 · Google</span></div><p><strong>609 відгуків</strong> на Google. Дані станом на 29.09.2026 — актуальну оцінку й самі відгуки дивіться на Google.</p><a class="src" href="https://www.google.com.ua/travel/hotels/entity/ChkI7amR_9eir7UpGg0vZy8xMWI2ZDYxNTI3EAE" target="_blank" rel="noopener">Читати відгуки</a></div></div></section>
 
-<section class="section request" id="request"><div class="wrap req-grid"><div class="req-side reveal"><p class="eyebrow">Бронювання</p><h2 class="title">Перевірити проживання</h2><p class="lead">Залиште заявку нижче — ми зателефонуємо або напишемо для підтвердження. Можна також бронювати за телефоном або email.</p><div class="contact-list" id="contacts"><a href="tel:+380675263662"><small>Телефон</small><b>+380 67 526 36 62</b></a><a href="mailto:hotel.xenia@gmail.com"><small>Email</small><b>hotel.xenia@gmail.com</b></a><a href="https://xenia.com.ua/" target="_blank" rel="noopener"><small>Сайт готелю</small><b>xenia.com.ua</b></a><div><small>Адреса</small><b>Жванецьке шосе, 3, Кам’янець-Подільський</b></div></div></div>
-<form class="req reveal"><fieldset class="tabs"><legend>Тип запиту</legend><label class="tab"><input type="radio" name="kind" value="stay" checked><span>Проживання</span></label><label class="tab"><input type="radio" name="kind" value="event"><span>Зустріч / подія</span></label></fieldset>
-<p class="form-title" id="formTitle">Перевірити проживання</p>
-<fieldset class="fields" data-kind="stay"><label class="f">Заїзд<input type="date" name="Заїзд"></label><label class="f">Виїзд<input type="date" name="Виїзд"></label><label class="f full">Гості<input type="number" name="Гостей" min="1" max="40" value="2"></label><fieldset class="interests full"><legend>Що вас цікавить додатково?</legend><div class="chips"><label class="chip"><input type="checkbox" name="Додатково" value="Басейн"><span>Басейн</span></label><label class="chip"><input type="checkbox" name="Додатково" value="Сауна"><span>Сауна</span></label><label class="chip"><input type="checkbox" name="Додатково" value="Ресторан"><span>Ресторан</span></label><label class="chip"><input type="checkbox" name="Додатково" value="Конференц-зал"><span>Конференц-зал</span></label></div></fieldset></fieldset>
-<fieldset class="fields" data-kind="event" hidden><label class="f">Дата<input type="date" name="Дата"></label><label class="f">Кількість учасників<input type="number" name="Учасників" min="1"></label><label class="f">Потрібне проживання?<select name="Проживання"><option>Так</option><option>Ні</option><option>Частково</option></select></label><label class="f">Потрібне харчування?<select name="Харчування"><option>Так</option><option>Ні</option><option>Обговоримо</option></select></label><label class="f full">Технічні потреби<textarea name="Технічні потреби" placeholder="Проєктор, екран, мікрофони, розсадка"></textarea></label></fieldset>
-<div class="shared"><label class="f"><span>Ім’я <b class="req-mark" aria-hidden="true">*</b></span><input type="text" name="Ім’я" autocomplete="name" required></label><label class="f"><span>Телефон <b class="req-mark" aria-hidden="true">*</b></span><input type="tel" name="Телефон" autocomplete="tel" required></label><label class="f full">Email<input type="email" name="Email" autocomplete="email"></label></div>
-<div class="req-foot"><button class="btn dark" type="submit">Перевірити доступність</button><p class="req-status" aria-live="polite"></p><p>Або телефонуйте: <a href="tel:+380675263662"><b>+380 67 526 36 62</b></a></p></div></form></div></section>
+<section class="section request" id="stay-request"><div class="wrap req-grid"><div class="req-side reveal"><p class="eyebrow">Бронювання</p><h2 class="title">Перевірити проживання</h2><p class="lead">Залиште телефон і, за бажанням, дати поїздки — ми зателефонуємо, щоб підтвердити номер і вартість. Можна також бронювати за телефоном або email.</p><div class="contact-list" id="contacts"><a href="tel:+380675263662"><small>Телефон</small><b>+380 67 526 36 62</b></a><a href="mailto:hotel.xenia@gmail.com"><small>Email</small><b>hotel.xenia@gmail.com</b></a><a href="https://xenia.com.ua/" target="_blank" rel="noopener"><small>Сайт готелю</small><b>xenia.com.ua</b></a><div><small>Адреса</small><b>Жванецьке шосе, 3, Кам’янець-Подільський</b></div></div></div>
+<form class="req reveal" data-hotelos data-form-name="Запит на проживання" novalidate><div class="fields"><label class="f full"><span>Телефон <small>обов’язково, щоб ми могли передзвонити</small></span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span data-error-for="phone"></span></label><label class="f">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="f">Email<input name="email" type="email" autocomplete="email" maxlength="200"></label><label class="f">Заїзд<input name="checkIn" type="date"></label><label class="f">Виїзд<input name="checkOut" type="date"><span data-error-for="checkOut"></span></label><label class="f full">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="f full">Побажання<textarea name="message" maxlength="5000" placeholder="Басейн, сауна, ресторан, номер з кондиціонером, тварина…"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div><div class="req-foot"><button class="btn dark" type="submit">Перевірити доступність</button><p>Або телефонуйте: <a href="tel:+380675263662"><b>+380 67 526 36 62</b></a></p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
 
-<section class="final"><div class="wrap reveal"><p class="eyebrow" lang="en">Stay · Dine · Swim · Relax · Meet</p><h2 class="title">Залишайтеся не тільки заради номера</h2><p>Готель, ресторан, басейн, сауна та простір для зустрічей у комплексі «Ксенія».</p><div class="actions"><a class="btn" href="#request">Забронювати номер</a><a class="btn ghost" href="#complex">Переглянути комплекс</a></div><p class="alt">Номер — лише початок вашого перебування.</p></div></section></main>
+<section class="final"><div class="wrap reveal"><p class="eyebrow" lang="en">Stay · Dine · Swim · Relax · Meet</p><h2 class="title">Залишайтеся не тільки заради номера</h2><p>Готель, ресторан, басейн, сауна та простір для зустрічей у комплексі «Ксенія».</p><div class="actions"><a class="btn" href="#stay-request">Забронювати номер</a><a class="btn ghost" href="#complex">Переглянути комплекс</a></div><p class="alt">Номер — лише початок вашого перебування.</p></div></section></main>
 
-<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>КСЕНІЯ</strong><small lang="en">Hotel · Restaurant · Kamianets-Podilskyi</small></a><p class="formula tag" lang="en" style="color:var(--gold-soft)">Stay · Dine · Swim · Relax · Meet</p><address>Жванецьке шосе, 3, Кам’янець-Подільський<br><a href="tel:+380675263662">+380 67 526 36 62</a><a href="mailto:hotel.xenia@gmail.com">hotel.xenia@gmail.com</a></address></div><div><h4 lang="en">Stay</h4><a href="#stay">Номери</a><a href="#request">Бронювання</a></div><div><h4 lang="en">Dine</h4><a href="#dine">Ресторан</a><a href="#dine">Бар</a></div><div><h4 lang="en">Relax</h4><a href="#pool">Критий басейн</a><a href="#sauna">Сауна</a></div><div><h4>Бізнес</h4><a href="#meet">Конференц-зали</a><a href="#request">Запит на подію</a></div><div><h4>Інформація</h4><a href="#arrive">Wi-Fi</a><a href="#arrive">Парковка</a><a href="#pets">Тварини</a><a href="#location">Карта</a><a href="#contacts">Контакти</a></div></div><div class="copyright">© Готельно-ресторанний комплекс «Ксенія» · Жванецьке шосе, 3, Кам’янець-Подільський · Ціни, наявність і умови послуг уточнюйте в готелі. Фото на сторінці ілюстративні.</div></div></footer>
-<nav class="mobile-cta" aria-label="Швидкі дії"><a class="btn" href="#request">Номер</a><a class="btn dark" href="tel:+380675263662">Подзвонити</a><a class="btn dark" href="https://maps.google.com/?cid=2984405603124008173" target="_blank" rel="noopener" style="background:var(--aqua);border-color:var(--aqua)">Карта</a></nav>
+<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>КСЕНІЯ</strong><small lang="en">Hotel · Restaurant · Kamianets-Podilskyi</small></a><p class="formula tag" lang="en" style="color:var(--gold-soft)">Stay · Dine · Swim · Relax · Meet</p><address>Жванецьке шосе, 3, Кам’янець-Подільський<br><a href="tel:+380675263662">+380 67 526 36 62</a><a href="mailto:hotel.xenia@gmail.com">hotel.xenia@gmail.com</a></address></div><div><h4 lang="en">Stay</h4><a href="#stay">Номери</a><a href="#stay-request">Бронювання</a></div><div><h4 lang="en">Dine</h4><a href="#dine">Ресторан</a><a href="#dine">Бар</a></div><div><h4 lang="en">Relax</h4><a href="#pool">Критий басейн</a><a href="#sauna">Сауна</a><a href="#sauna-request">Запит на сауну</a></div><div><h4>Бізнес</h4><a href="#meet">Конференц-зали</a><a href="#conference-request">Запит на конференц-зал</a></div><div><h4>Інформація</h4><a href="#arrive">Wi-Fi</a><a href="#arrive">Парковка</a><a href="#pets">Тварини</a><a href="#location">Карта</a><a href="#contacts">Контакти</a></div></div><div class="copyright">© Готельно-ресторанний комплекс «Ксенія» · Жванецьке шосе, 3, Кам’янець-Подільський · Ціни, наявність і умови послуг уточнюйте в готелі. Фото на сторінці ілюстративні.</div></div></footer>
+<nav class="mobile-cta" aria-label="Швидкі дії"><a class="btn" href="#stay-request">Номер</a><a class="btn dark" href="tel:+380675263662">Подзвонити</a><a class="btn dark" href="https://maps.google.com/?cid=2984405603124008173" target="_blank" rel="noopener" style="background:var(--aqua);border-color:var(--aqua)">Карта</a></nav>
 <script>const siteHeader=document.querySelector('header');const onHeaderScroll=()=>siteHeader.classList.toggle('scrolled',scrollY>40);onHeaderScroll();addEventListener('scroll',onHeaderScroll,{passive:true});
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.reveal,.reveal-group').forEach(el=>observer.observe(el));
-</script><script>
-(function(){
-var ENDPOINT='https://it.webart.work/api/telegram/contact';
-var SLUG=location.hostname.split('.')[0];
-var KIND_LABELS={stay:'Проживання',group:'Група',event:'Подія',sauna:'Сауна'};
+</script>
+<script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-ksenia'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://ksenia.webart.work/'; // from the site's CNAME
+const PHONE = '+380 67 526 36 62'; // shown when sending fails
 
-document.querySelectorAll('.section.request form.req').forEach(function(form){
-var kindRadios=form.querySelectorAll('input[name="kind"]');
-var applyKind=function(){
-var checked=form.querySelector('input[name="kind"]:checked');
-var val=checked?checked.value:null;
-form.querySelectorAll('[data-kind]').forEach(function(fs){
-var active=fs.getAttribute('data-kind')===val;
-fs.hidden=!active;
-fs.disabled=!active;
-});
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
 };
-if(kindRadios.length){
-kindRadios.forEach(function(r){r.addEventListener('change',applyKind)});
-applyKind();
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
 }
 
-var petRadios=form.querySelectorAll('input[name="Тварина"]');
-var petExtra=form.querySelector('.pet-extra');
-var applyPet=function(){
-var checked=form.querySelector('input[name="Тварина"]:checked');
-var show=!!checked&&checked.value==='Так';
-petExtra.hidden=!show;
-petExtra.querySelectorAll('input,select,textarea').forEach(function(el){el.disabled=!show});
-};
-if(petRadios.length&&petExtra){
-petRadios.forEach(function(r){r.addEventListener('change',applyPet)});
-applyPet();
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
 }
 
-var status=form.querySelector('.req-status');
-var submitBtn=form.querySelector('button[type="submit"]');
-
-var originalChildren=Array.prototype.slice.call(form.children);
-var successBox=document.createElement('div');
-successBox.className='req-success';
-successBox.hidden=true;
-successBox.innerHTML='<p class="req-success-icon" aria-hidden="true">✅</p><p class="req-success-title">Дякуємо!</p><p class="req-success-text"></p><button type="button" class="btn req-success-reset">Надіслати ще один запит</button>';
-form.appendChild(successBox);
-var successText=successBox.querySelector('.req-success-text');
-
-var showForm=function(){
-originalChildren.forEach(function(c){c.style.display=''});
-successBox.hidden=true;
-};
-var showSuccess=function(phoneVal){
-originalChildren.forEach(function(c){c.style.display='none'});
-successText.textContent='Ми зв’яжемось з вами'+(phoneVal?' за номером '+phoneVal:'')+' найближчим часом.';
-successBox.hidden=false;
-};
-
-successBox.querySelector('.req-success-reset').addEventListener('click',function(){
-showForm();
-form.reset();
-if(kindRadios.length)applyKind();
-if(petRadios.length&&petExtra)applyPet();
-if(status)status.textContent='';
-});
-
-form.addEventListener('submit',function(e){
-e.preventDefault();
-if(!form.reportValidity())return;
-
-var lines=[];
-form.querySelectorAll('input,select,textarea').forEach(function(el){
-if(!el.name||el.name==='kind'||el.disabled)return;
-if(el.closest('[hidden]'))return;
-if(el.type==='radio'||el.type==='checkbox'){
-if(!el.checked)return;
-}
-var val=(el.value||'').trim();
-if(!val)return;
-if(el.type==='checkbox'){
-var existing=lines.find(function(l){return l.name===el.name});
-if(existing){existing.value+=', '+val;return}
-}
-lines.push({name:el.name,value:val});
-});
-
-var kindEl=form.querySelector('input[name="kind"]:checked');
-var titleEl=form.querySelector('.form-title');
-var sectionTitle=form.closest('section');
-sectionTitle=sectionTitle?sectionTitle.querySelector('h2.title'):null;
-var heading=(titleEl&&titleEl.textContent.trim())||(sectionTitle&&sectionTitle.textContent.trim())||'Бронювання';
-
-var phoneLine=lines.find(function(l){return l.name==='Телефон'});
-var phoneVal=phoneLine?phoneLine.value:'';
-
-var text='📩 Заявка з сайту '+SLUG+'.webart.work\n'+heading+(kindEl?' ('+(KIND_LABELS[kindEl.value]||kindEl.value)+')':'')+'\n\n'+
-lines.map(function(l){return l.name+': '+l.value}).join('\n');
-
-if(submitBtn)submitBtn.disabled=true;
-if(status)status.textContent='Надсилаємо…';
-
-fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({slug:SLUG,message:text})})
-.then(function(r){return r.json()})
-.then(function(res){
-if(res===true){
-if(status)status.textContent='';
-form.reset();
-if(kindRadios.length)applyKind();
-if(petRadios.length&&petExtra)applyPet();
-showSuccess(phoneVal);
-}else{
-throw new Error('telegram failed');
-}
-})
-.catch(function(){
-if(status)status.textContent='Не вдалося надіслати заявку. Будь ласка, зателефонуйте нам.';
-})
-.finally(function(){
-if(submitBtn)submitBtn.disabled=false;
-});
-});
-});
-})();
-</script></body></html>
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
+</script>
+</body></html>
