@@ -1,6 +1,6 @@
 # Готельно-ресторанний комплекс «Ксенія»
 
-Live site: https://ksenia.webart.work
+Live site: https://ksenia.hotelup.work
 
 ## About
 «Ксенія» — 3★ готельно-ресторанний комплекс у Кам’янці-Подільському, Жванецьке шосе, 3. Сторінка побудована за формулою STAY · DINE · SWIM · RELAX · MEET: номери, ресторан і бар, критий басейн, сауна та конференц-зали. Головна історія — ROOM → POOL → SAUNA → DINNER → STAY, для бізнесу — MEET → DINE → STAY.

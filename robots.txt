@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ksenia.webart.work/sitemap.xml
+Sitemap: https://ksenia.hotelup.work/sitemap.xml
